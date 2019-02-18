@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    h1 {
+        font-size: 37px;
+        text-align: center;
+        color: #2122ff;
+    }
+    </style>
+
+<style>
+    form {
+        font-size: 37px;
+        text-align: center;
+        color: #2122ff;
+    }
+    </style>
+<body>
+<h1>Enter the Twitter account, whose friends location you want to mark on the map:</h1>
+<form method="POST" action="/twitter">
+    <input type= "text" name ="tweecount" placeholder="For example: @romanyuk">
+    <h1>Enter the number of followers, that you want to see on the map</h1>
+    <input type = "text" name = "num_friends" placeholder="For example: 10">
+    <input class="btn btn-primary" type="submit" value="Apply">
+</form>
+</body>
+</html>
